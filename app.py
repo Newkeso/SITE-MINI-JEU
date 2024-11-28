@@ -15,6 +15,30 @@ def main():
 def game1():
     return render_template('aventure.html')
 
+@app.route('/action')
+def action():
+    return render_template('action.html')
+
+@app.route('/puzzle')
+def puzzle():
+    return render_template('puzzle.html')
+
+@app.route('/strategie')
+def strategie():
+    return render_template('Strategie.html')
+
+@app.route('/sport')
+def Sport():
+    return render_template('Sport.html')
+
+@app.route('/arcade')
+def Arcade():
+    return render_template('Arcade.html')
+
+
+
+
+
 
 
 # Route pour exécuter le jeu et afficher un message
@@ -31,7 +55,7 @@ def play_game1():
         # Si une erreur se produit, afficher un message d'erreur
         message = f"Erreur lors du démarrage du jeu: {str(e)}"
     
-    return render_template('dbz.html', message=message)
+    return render_template('action.html', message=message)
 
 if __name__ == '__main__':
     app.run(debug=True)
