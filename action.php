@@ -57,14 +57,20 @@
                     </form>
                 </div>
                 <div class="game-card bg-gray-800 p-4 rounded-lg shadow-md transition-transform duration-300">
-                    <img src="https://via.placeholder.com/300" alt="Jeu 2" class="rounded mb-4">
-                    <h3 class="text-lg font-semibold">Jeu Aventure 2</h3>
+                    <img src="https://cdn.discordapp.com/attachments/1073409893668757626/1311695483164688384/Design_sans_titre_8.png?ex=6749cb1d&is=6748799d&hm=762ed320e3157406306169e2fc4eb0f3329e2c46861ce2d85738836d31801c59&" alt="Jeu 2" class="rounded mb-4">
+                    <h3 class="text-lg font-semibold">Space Shooter</h3>
                     <p class="text-gray-400">Description rapide du jeu.</p>
+                    <form action="/play_game2"method="POST">
+                        <button type="submit" class="bg-blue-500 px-6 py-2 rounded-lg text-white hover:bg-blue-600">Jouer au jeu</button>
+                    </form>
                 </div>
                 <div class="game-card bg-gray-800 p-4 rounded-lg shadow-md transition-transform duration-300">
-                    <img src="https://via.placeholder.com/300" alt="Jeu 3" class="rounded mb-4">
+                    <img src="https://cdn.discordapp.com/attachments/1073409893668757626/1311698684634726411/Design_sans_titre_9.png?ex=6749ce18&is=67487c98&hm=cdf469350979b027f73d835de73e3b6aff99e38e2122621d806e676c6935a98f&" alt="Jeu 3" class="rounded mb-4">
                     <h3 class="text-lg font-semibold">Jeu Aventure 3</h3>
                     <p class="text-gray-400">Description rapide du jeu.</p>
+                    <form action="/play_game3"method="POST">
+                        <button type="submit" class="bg-blue-500 px-6 py-2 rounded-lg text-white hover:bg-blue-600">Jouer au jeu</button>
+                    </form>
                 </div>
             </div>
         </div>
